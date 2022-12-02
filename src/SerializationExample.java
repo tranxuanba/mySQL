@@ -1,9 +1,13 @@
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.ObjectOutputStream;
+import java.util.ArrayList;
+import java.util.List;
 
 public class SerializationExample {
     public static void main(String[] args) {
+        List<Integer> a = new ArrayList<>();
+        a.add(12);
         // Create Student object
         Student student = new Student();
         student.setName("Khanh");
